@@ -1,0 +1,136 @@
+import 'package:mini_app/data/models/product_list.dart';
+
+final List<Category> demoCategories = [
+  const Category(
+    name: 'Sports',
+    products: [
+      Product(
+        id: 'sp1',
+        name: 'Nike Air Zoom',
+        company: 'Nike',
+        imagePath: 'https://picsum.photos/seed/nike-air-zoom/800/800',
+        oldPrice: 220,
+        newPrice: 179,
+      ),
+      Product(
+        id: 'sp2',
+        name: 'Adidas Jersey',
+        company: 'Adidas',
+        imagePath: 'https://picsum.photos/seed/adidas-jersey/800/800',
+        oldPrice: 120,
+        newPrice: 96,
+      ),
+      Product(
+        id: 'sp3',
+        name: 'Smart Watch',
+        company: 'Garmin',
+        imagePath: 'https://picsum.photos/seed/smart-watch/800/800',
+        oldPrice: 340,
+        newPrice: 299,
+      ),
+      Product(
+        id: 'sp4',
+        name: 'Gym Bag',
+        company: 'Puma',
+        imagePath: 'https://picsum.photos/seed/gym-bag/800/800',
+        oldPrice: 80,
+        newPrice: 64,
+      ),
+    ],
+  ),
+  const Category(
+    name: 'Jewelry',
+    products: [
+      Product(
+        id: 'jw1',
+        name: 'Silver Necklace',
+        company: 'Pandora',
+        imagePath: 'https://picsum.photos/seed/silver-necklace/800/800',
+        oldPrice: 200,
+        newPrice: 150,
+      ),
+      Product(
+        id: 'jw2',
+        name: 'Gold Ring',
+        company: 'Cartier',
+        imagePath: 'https://picsum.photos/seed/gold-ring/800/800',
+        oldPrice: 800,
+        newPrice: 720,
+      ),
+      Product(
+        id: 'jw3',
+        name: 'Classic Bracelet',
+        company: 'Swarovski',
+        imagePath: 'https://picsum.photos/seed/bracelet/800/800',
+        oldPrice: 300,
+        newPrice: 255,
+      ),
+    ],
+  ),
+  const Category(
+    name: 'Electronics',
+    products: [
+      Product(
+        id: 'el1',
+        name: 'iPhone X',
+        company: 'Apple',
+        imagePath: 'https://picsum.photos/seed/iphone-x/800/800',
+        oldPrice: 1200,
+        newPrice: 1099,
+      ),
+      Product(
+        id: 'el2',
+        name: 'XPS 13',
+        company: 'Dell',
+        imagePath: 'https://picsum.photos/seed/dell-xps/800/800',
+        oldPrice: 1600,
+        newPrice: 1399,
+      ),
+      Product(
+        id: 'el3',
+        name: 'Noise Cancelling Headset',
+        company: 'Sony',
+        imagePath: 'https://picsum.photos/seed/sony-headset/800/800',
+        oldPrice: 350,
+        newPrice: 289,
+      ),
+      Product(
+        id: 'el4',
+        name: '4K Monitor',
+        company: 'LG',
+        imagePath: 'https://picsum.photos/seed/4k-monitor/800/800',
+        oldPrice: 430,
+        newPrice: 389,
+      ),
+    ],
+  ),
+  const Category(
+    name: 'Clothes',
+    products: [
+      Product(
+        id: 'cl1',
+        name: 'Hoodie',
+        company: 'IKEA',
+        imagePath: 'https://picsum.photos/seed/hoodie/800/800',
+        oldPrice: 70,
+        newPrice: 56,
+      ),
+      Product(
+        id: 'cl2',
+        name: 'Denim Jacket',
+        company: 'Levi’s',
+        imagePath: 'https://picsum.photos/seed/denim-jacket/800/800',
+        oldPrice: 110,
+        newPrice: 88,
+      ),
+      Product(
+        id: 'cl3',
+        name: 'T-Shirt Pack',
+        company: 'Uniqlo',
+        imagePath: 'https://picsum.photos/seed/tshirt-pack/800/800',
+        oldPrice: 50,
+        newPrice: 40,
+      ),
+    ],
+  ),
+];

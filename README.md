@@ -1,7 +1,7 @@
 # Mini App
 
 A Flutter shopping UI demo built in 1 day:
-- Home, Store (pinned headers + floating tabs), Wishlist, Profile
+- Home, Store (headers + floating tabs), Wishlist, Profile
 - Shimmer loaders, Brand Pills, reusable Settings items & toggles
 - In-memory store data and Wishlist service
 
